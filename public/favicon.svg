@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Atlas Advisory">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#00C896"/>
+      <stop offset="100%" stop-color="#0B3D2E"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <path d="M14 44L31.5 14L49 44H40.5L31.5 28.5L22.5 44H14Z" fill="#fff"/>
+</svg>
