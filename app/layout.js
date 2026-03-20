@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
           strategy="lazyOnload"
         />
       </head>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning>
         {children}
       </body>
     </html>

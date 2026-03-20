@@ -15,7 +15,7 @@ export default function Footer() {
               <span className="font-bold text-lg">Atlas Advisory</span>
             </div>
             <p className="text-sm text-muted-foreground mb-4">
-              India's premium B2B scrap marketplace by Rareus Private Limited
+              Strategic advisory, consultancy, and scrap business solutions by Rareus Private Limited
             </p>
             <div className="space-y-2 text-sm">
               <div className="flex items-center gap-2 text-muted-foreground">
@@ -32,20 +32,21 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
+              <Link href="/" className="block hover:text-primary transition">Home</Link>
+              <Link href="/scrap-business" className="block hover:text-primary transition">Scrap Business</Link>
               <Link href="/marketplace" className="block hover:text-primary transition">Marketplace</Link>
               <Link href="/import" className="block hover:text-primary transition">Import Services</Link>
               <Link href="/drt-assets" className="block hover:text-primary transition">DRT/NCLT Assets</Link>
-              <Link href="/dashboard" className="block hover:text-primary transition">Dashboard</Link>
             </div>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Services</h4>
             <div className="space-y-2 text-sm text-muted-foreground">
+              <p>Business Advisory</p>
+              <p>Strategic Consulting</p>
               <p>Scrap Trading</p>
-              <p>Import Facilitation</p>
-              <p>Asset Liquidation</p>
-              <p>Premium Membership</p>
+              <p>Asset & Import Support</p>
             </div>
           </div>
           

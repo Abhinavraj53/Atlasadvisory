@@ -49,6 +49,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '/', label: 'Home' },
+    { href: '/scrap-business', label: 'Scrap' },
     { href: '/marketplace', label: 'Marketplace' },
     { href: '/import', label: 'Import' },
     { href: '/drt-assets', label: 'DRT/NCLT' },

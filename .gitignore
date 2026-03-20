@@ -5,6 +5,8 @@ node_modules/
 
 # next build output
 .next/
+.next_backup_*/
+.next_broken_*/
 out/
 
 # environment files
